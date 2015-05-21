@@ -7,6 +7,7 @@
 [![Coveralls](https://img.shields.io/coveralls/bitpay/bitpay-ruby-keyutils.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitpay-ruby-keyutils)
 
 [![Travis](https://img.shields.io/travis/philosodad/bitpay-ruby-keyutils.svg?style=flat-square)](https://travis-ci.org/philosodad/bitpay-ruby-keyutils)
+[![Coveralls](https://img.shields.io/coveralls/philosodad/bitpay-ruby-keyutils.svg)](https://coveralls.io/r/philosodad/bitpay-ruby-keyutils)
 
 Provides required cryptographic functions to use the BitPay 2.0 API.
 
