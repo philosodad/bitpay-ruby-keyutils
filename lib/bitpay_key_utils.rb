@@ -7,6 +7,8 @@ $LOAD_PATH.unshift(libdir) unless $LOAD_PATH.include?(libdir)
 require 'bitpay/key_utils'
 require 'bitpay/key_version'
 
+# BitPay module is a top level module that includes the key_utils and client classes.
+# This gem implements the key_utilities methods.
 module BitPay
   MISSING_PEM = 'No pem file specified. Pass pem string'
   class BitPayError < StandardError; end

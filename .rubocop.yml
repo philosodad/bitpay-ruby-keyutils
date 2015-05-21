@@ -1,0 +1,28 @@
+AllCops:
+  Exclude:
+    - 'Rakefile'
+    - '*.gemspec'
+    - 'Gemfile'
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 20
+
+Style/EmptyLinesAroundBlockBody:
+  Description: "Keeps track of empty lines around block bodies."
+  Enabled: false
+
+Style/DefWithParentheses:
+  Description: 'Use def with parentheses when there are arguments.'
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#method-parens'
+  Enabled: false
+
+Style/MethodDefParentheses:
+  Description: >-
+    Checks if the method definitions have or don't have
+    parentheses.
+  StyleGuide: 'https://github.com/bbatsov/ruby-style-guide#method-parens'
+  Enabled: false
+
